@@ -6,4 +6,4 @@ addons:
   postgresql: "9.3"
 
 before_script:
-  - psql -c 'create database active_record-pg_table_data_modifications_test;' -U postgres
+  - psql -c 'create database active_record_pg_table_data_modifications_test;' -U postgres
